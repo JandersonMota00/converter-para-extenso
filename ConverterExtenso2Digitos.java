@@ -1,7 +1,7 @@
 public class ConverterExtenso2Digitos extends ConverterExtenso1Digito {
     private int numero;
     String[] porExtenso2 = { "Dez", "Onze", "Doze", "Treze", "Catorze", "Quinze", "Dezesseis", "Dezessete", "Dezoito", "Dezenove" };
-    String[] porExtenso20 = { "Vinte e ", "Trinta e ", "Quarenta e ", "Ciquenta e ", "Sessenta e ", "Setenta e ", "Oitenta e ", "Noventa e ", "q", "w", "e" };
+    String[] porExtenso20 = { "Vinte e ", "Trinta e ", "Quarenta e ", "Ciquenta e ", "Sessenta e ", "Setenta e ", "Oitenta e ", "Noventa e " };
 
     ConverterExtenso2Digitos(int numero) {
         super(numero);
